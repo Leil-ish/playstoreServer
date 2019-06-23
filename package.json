@@ -1,0 +1,31 @@
+{
+  "name": "playstoreServer",
+  "version": "1.0.0",
+  "description": "Google Play Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server",
+    "debug": "ndb node server",
+    "dev": "nodemon server",
+    "test": "mocha"
+  },
+  "keywords": [
+    "Express",
+    "Node",
+    "REST"
+  ],
+  "author": "Leila Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ndb": "^1.0.42",
+    "nodemon": "^1.18.9",
+    "supertest": "^3.3.0"
+  }
+}
