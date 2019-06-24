@@ -43,8 +43,8 @@ app.get('/apps', (req, res) => {
 	}
     
   res
+    .status(200)
     .json(results);
-    
     }
 });
 
